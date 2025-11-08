@@ -1,0 +1,23 @@
+{
+  "name": "SUDANI-WHATSAPP-BOT",
+  "description": "بوت واتساب للحصول على مكافآت شركة سوداني للاتصالات",
+  "repository": "https://github.com/YOUR_USERNAME/sudani-whatsapp-bot",
+  "logo": "https://raw.githubusercontent.com/YOUR_USERNAME/sudani-whatsapp-bot/main/logo.png",
+  "keywords": [
+    "nodejs",
+    "whatsapp-bot",
+    "sudani",
+    "rewards"
+  ],
+  "env": {
+    "ADMIN_NUMBER": {
+      "description": "249119406108",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
